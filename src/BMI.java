@@ -8,7 +8,7 @@ public class BMI {
         } else if (bmi > 16 && bmi < 17.9) {
             System.out.println("У вас недостаток массы тела");
         } else if (bmi > 18 && bmi < 24.9) {
-            System.out.println("Ваш вес в норме");
+            System.out.println("Ваш вес в норме!");
         } else if (bmi > 25 && bmi < 29.9) {
             System.out.println("У вас чрезмерная масса тела");
         } else if (bmi > 30) {
