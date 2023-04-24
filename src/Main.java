@@ -5,9 +5,9 @@ public class Main {
         int weight;
         int height;
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите вес, кг");
+        System.out.println("Введите вес, (кг)");
         weight = scan.nextInt();
-        System.out.println("Введите рост, см");
+        System.out.println("Введите рост, (см)");
         height = scan.nextInt();
         BMI b = new BMI();
         b.calculatingBMI(weight, height);
